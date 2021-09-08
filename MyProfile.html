@@ -7,23 +7,75 @@
     <title>My profile</title>
   </head>
   <body>
-    <h1>Hello World!</h1>
-    <nav>
-      <a href="some/url/here">21 years old</a>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css"> -->
+    <style>
+      body {
+        background-color: rgb(0, 0, 0);
+}
+      .red-text {
+        color: red;
+  }
+  .injected-text {
+    margin-bottom: -25px;
+    text-align: center;
+  }
+  .red-box {
+    background-color: crimson;
+    color: #fff;
+    padding: 20px;
+  }
+  .blue-box {
+    background-color: blue;
+    color: #fff;
+    padding: 10px;
+    margin: 20px 40px 20px 40px;
+  }
+  .yellow-box {
+    background-color: yellow;
+    padding: 20px 40px 20px 40px;
+  }
+  .box {
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    text-align: center;
+  }
+      .thick-green-border {
+    border-color: green;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-radius: 50%;
+  }
+      h1 {
+    font-family: Lobster, monospace;
+    font-size: 100px;
+    background-color: yellow;
+  }
+      .silver-background {
+  background-color: silver;
+  }
+    </style>
+    <h1 class="red-text">Hello World!111</h1>
+    <h2 class="injected-text">margin</h2>
+    <nav class="silver-background">
+      <a href="21years">21 years old</a>
     <main>
-    <p style="color: red"
-      <article>
+      <div class="box yellow-box">
+        <h2 class="box red-box">padding</h2>
+        <h2 class="box blue-box">padding</h2>>
+      </div>
+      <div>
         <ul>
         <li>Viktoria Ziakova</li>
+      </br>
         <li>21 years old</li>
         <li>Business academy</li>
         <li>Accounting, Economics, Applied informatics</li>
         <li>I adore skiing. I sometimes play video games, my favorite right now is final fantasy XIV. I am intrigued by fashion and high fashion. I like to watch fashion runways. </li>
         </ul>
-      </article>
-    <img src="src.jpg" width="160" height="200"alt="My face" 
-    </nav>
+      </div>
+    <img class="thick-green-border" src="src.jpg" width="160" height="200" alt="My face">
     </main>
-    </p>
   </body>
 </html>
