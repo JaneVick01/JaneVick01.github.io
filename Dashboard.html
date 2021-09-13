@@ -5,64 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=chrome">
     <title>Dashboard</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+  <style>
+    table, th, td {
+  border: 1px solid black;
+}
+  </style>
     </head>
-    <style>
-    .mytopnav {
-        margin: -9px;
-        background-color: #333;
-        overflow: hidden;
-      }
-      .mytopnav a {
-        float: left;
-        color: #f2f2f2;
-        text-align: center;
-        padding: 14px 16px;
-        text-decoration: none;
-        font-size: 17px;
-      }
-      .mytopnav a:hover {
-        background-color: rgb(214, 210, 210);
-        color: black;
-      }
-      .mytopnav a.active {
-        background-color: #03910f;
-        color: white;
-      }
-      .mytopnav-centered a {
-        float: none;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-      }
-      .mytopnav-right {
-        float: right;
-      }
-      .mytopnav {
-        position: -webkit-sticky;
-        position: sticky;
-        top: 0;
-      }
-      .logo-image{
-          width: 40px;
-          height: 40px;
-          border-radius: 50%;
-          overflow: hidden;
-          margin-top: -9px;
-          margin-bottom: -11px;
-      }
-        .scale-down {
-            object-fit: scale-down;
-            width: 100%;
-            height: 100%;
-        }
-        body {
-            background-color: rgb(214, 214, 214);
-        }
-        
-    </style>
-</head>
+    
 
 <body>
 <!-- Top navigation -->
@@ -71,6 +24,7 @@
         <div class="logo-image">
               <img src="HZ2.jfif" class="scale-down">
         </div>
+        </a>
 <!-- Right-aligned links -->
 <div class="mytopnav-right">
   <a href="index.html"class="active">Home</a>
@@ -81,15 +35,109 @@
 </div>
 </div>
 
-<div class="container">
-    <h1>Dashboard</h1>
-    <div class="row">
-      <div class="col-sm-6" style="background-color:yellow;">
-        <p>Lorem ipsum...</p>
-      </div>
-      <div class="col-sm-6" style="background-color:pink;">
-        <p>Sed ut perspiciatis...</p>
-      </div>
-    </div>
-  </div>
+</br>
+
+<table style="width: 100%;">
+  <thead>
+  <tr>
+    <td>Quartile</td>
+    <td>Course</td>
+    <td>EC</td>
+    <td>Exam</td>
+    <td>Grade</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="3">1</td>
+      <td>Programme and Career Orientation</td>
+      <td>2,5</td>
+      <td>Assesment</td>
+      <td>6,9</td>
+    </tr>
+    <tr>
+      <td>Computer Science Basics</td>
+      <td>5</td>
+      <td>Written exam</td>
+      <td>7,2</td>
+    </tr>
+    <tr>
+      <td>Programming Basics</td>
+      <td>5</td>
+      <td>Case study</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2">2</td>
+      <td>Object Oriented Programming</td>
+      <td>10</td>
+      <td>Case study</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Project</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="4">3</td>
+      <td>Framework Development</td>
+      <td>5</td>
+      <td>Case study</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Framework Project 1</td>
+      <td>7,5</td>
+      <td>Project</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Assesment</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Report</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="3">4</td>
+      <td>Framework Project 2</td>
+      <td>10</td>
+      <td>Portfolio</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Project</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td>Assesment</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td rowspan="2">The entire year</td>
+      <td>Personal Professional Develompment</td>
+      <td>12,5</td>
+      <td>Portfolio</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Personality 1</td>
+      <td>1,25</td>
+      <td>Portfolio</td>
+      <td></td>
+    </tr>
+    <tr></tr>
+  </tbody>
+</table>
   </body>
