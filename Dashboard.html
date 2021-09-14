@@ -11,13 +11,25 @@
   
   <style>
     table, th, td {
-  border: 1px solid black;
-}
+  border: 3px solid #ccc;
+  color: black;
+  width: auto;
+  }
+  td {
+    width: 200px;
+    background-color: rgba(129, 204, 145, 0.973);
+  }
+  .stable {
+    text-align: center;
+    margin: 75px 250px 75px 250px;
+    padding: 100px 250px 450px 250px;
+  }
+
   </style>
     </head>
     
 
-<body>
+<body class="bimage">
 <!-- Top navigation -->
  <div class="mytopnav">
     <a class="navbar-brand" href="https://hz.nl/">
@@ -37,15 +49,15 @@
 
 </br>
 
-<table style="width: 100%;">
+<table class="stable">
   <thead>
   <tr>
-    <td>Quartile</td>
-    <td>Course</td>
-    <td>EC</td>
-    <td>Exam</td>
-    <td>Grade</td>
-    </tr>
+    <td><strong>Quartile</strong></td>
+    <td><strong>Course</strong></td>
+    <td><strong>EC</strong></td>
+    <td><strong>Exam</strong></td>
+    <td><strong>Grade</strong></td>
+  </tr>
   </thead>
   <tbody>
     <tr>
@@ -125,19 +137,27 @@
       <td></td>
     </tr>
     <tr>
-      <td rowspan="2">The entire year</td>
+      <td rowspan="3">The entire year</td>
       <td>Personal Professional Develompment</td>
       <td>12,5</td>
       <td>Portfolio</td>
       <td></td>
     </tr>
     <tr>
-      <td>Personality 1</td>
+      <td>IT Personality</td>
       <td>1,25</td>
-      <td>Portfolio</td>
+      <td>Personality 1</td>
       <td></td>
     </tr>
-    <tr></tr>
+    <tr>
+      <td></td>
+      <td>1,25</td>
+      <td>Personality 2</td>
+      <td></td>
+    </tr>
   </tbody>
 </table>
+<footer>
+  Author: Viktória Žiaková
+</footer>
   </body>
