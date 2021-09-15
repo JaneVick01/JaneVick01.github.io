@@ -11,9 +11,11 @@
   
   <style>
     table, th, td {
-  border: 3px solid #ccc;
-  color: black;
+  border: 1px solid #ccc;
   width: auto;
+  }
+  th {
+    background-color: rgba(129, 204, 145, 0.973);
   }
   td {
     width: 200px;
@@ -24,7 +26,14 @@
     margin: 75px 250px 75px 250px;
     padding: 100px 250px 450px 250px;
   }
-
+  #red
+  {
+    background-color: red;
+  }
+  
+  mark {
+    background-color: rgba(129, 204, 145, 0.973) !important;
+  }
   </style>
     </head>
     
@@ -39,9 +48,9 @@
         </a>
 <!-- Right-aligned links -->
 <div class="mytopnav-right">
-  <a href="index.html"class="active">Home</a>
+  <a href="index.html">Home</a>
   <a href="MyProfile.html">My profile</a>
-  <a href="Dashboard.html">Dashboard</a>
+  <a href="Dashboard.html" class="active">Dashboard</a>
   <a href="FAQ.html">FAQ</a>
   <a href="Blog.html">Blog</a>
 </div>
@@ -65,98 +74,136 @@
       <td>Programme and Career Orientation</td>
       <td>2,5</td>
       <td>Assesment</td>
-      <td>6,9</td>
+      <td id="red">-</td>
     </tr>
     <tr>
       <td>Computer Science Basics</td>
       <td>5</td>
       <td>Written exam</td>
-      <td>7,2</td>
+      <td id="red">-</td>
     </tr>
     <tr>
       <td>Programming Basics</td>
       <td>5</td>
       <td>Case study</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
     <tr>
       <td rowspan="2">2</td>
-      <td>Object Oriented Programming</td>
-      <td>10</td>
+      <td rowspan="2">Object Oriented Programming</td>
+      <td rowspan="2">10</td>
       <td>Case study</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
       <td>Project</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
     <tr>
       <td rowspan="4">3</td>
       <td>Framework Development</td>
       <td>5</td>
       <td>Case study</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
     <tr>
-      <td>Framework Project 1</td>
-      <td>7,5</td>
+      <td rowspan="3">Framework Project 1</td>
+      <td rowspan="3">7,5</td>
       <td>Project</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
       <td>Assesment</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
       <td>Report</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
     <tr>
       <td rowspan="3">4</td>
-      <td>Framework Project 2</td>
-      <td>10</td>
+      <td rowspan="3">Framework Project 2</td>
+      <td rowspan="3">10</td>
       <td>Portfolio</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
       <td>Project</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
     <tr>
-      <td></td>
-      <td></td>
       <td>Assesment</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
     <tr>
       <td rowspan="3">The entire year</td>
       <td>Personal Professional Develompment</td>
       <td>12,5</td>
       <td>Portfolio</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
     <tr>
-      <td>IT Personality</td>
+      <td rowspan="2">IT Personality</td>
       <td>1,25</td>
       <td>Personality 1</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
     <tr>
-      <td></td>
       <td>1,25</td>
       <td>Personality 2</td>
-      <td></td>
+      <td id="red">-</td>
     </tr>
   </tbody>
 </table>
+<main class="text22">
+<li>
+  <a target="_blank" href="https://hz.nl/en/about-hz/rules-and-regulations">
+    <mark>The HZ Course and Examination Regulations (CER)</mark></a>
+</li>
+</br>
+<li>
+  <a target="_blank" href="https://hz.nl/en/secure/het-groene-woud-en/groene-woud-safety">
+    <mark>Implementation Regulations (IR)</mark></a>
+</li>
+</br>
+<li>
+  <a target="_blank" href="https://learn.hz.nl/my/"><mark>Hz Learn</mark></a>
+</li>
+</br>
+<li>
+  <a target="_blank" href="https://www.microsoft.com/en-us/microsoft-teams/download-app"><mark>Teams</mark></a>
+</li>
+</br>
+<li>
+  <a target="_blank" href="https://apps.hz.nl/angular/studievoortgang/studiestatus"><mark>Study progress</mark></a>
+</li>
+</br>
+<li>
+  <a target="_blank" href="https://github.com/"><mark>Github</mark></a>
+</li>
+
+<!-- <div class="container">
+  <div class="row">
+    <div class="col">
+      <div class="test">
+        hellow
+      </div>
+    </div>
+    <div class="col">
+      <div class="test">
+        hellow
+      </div>
+    </div>
+    <div class="col">
+      <div class="test">
+        hellow
+      </div>
+    </div>
+  </div>
+</div> -->
+
+</main>
+</br>
 <footer>
   Author: Viktória Žiaková
 </footer>
