@@ -1,93 +1,92 @@
-.mytopnav {
-    margin: -9px;
-    background-color: #333;
-    overflow: hidden;
+/* top nav**/
+
+  .mytopnav {
+  margin: -9px;
+  background-color: #333;
+  overflow: hidden;
   }
-.mytopnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  .mytopnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
   }
-.mytopnav a:hover {
-    background-color: rgb(214, 210, 210);
-    color: black;
+  .mytopnav a:hover {
+  background-color: rgb(214, 210, 210);
+  color: black;
   }
-.mytopnav a.active {
-    background-color: #03910f;
-    color: white;
+  .mytopnav a.active {
+  background-color: #03910f;
+  color: white;
   }
-.mytopnav-centered a {
-    float: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .mytopnav-centered a {
+  float: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   }
-.mytopnav-right {
-    float: right;
+  .mytopnav-right {
+  float: right;
   }
-.mytopnav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
+  .mytopnav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
   }
-.logo-image {
- width: 40px;
- height: 40px;
- border-radius: 50%;
- overflow: hidden;
- margin-top: -9px;
- margin-bottom: -11px;
-      
-  }
-.scale-down {
-      object-fit: scale-down;
-      width: 100%;
-      height: 100%;
-  }
-  body {
-      background-color: rgb(180, 180, 180);
-      margin: 0px;
-      overflow-x: hidden;
-  }
+
+  /*my footer **/
+  
   footer {
-	background-color: rgb(8, 8, 8);
-	width: 100%;
-	height: 2.7rem;
+  background-color: rgb(8, 8, 8);
+  width: 100%;
+  height: 2.7rem;
   clear: both;
   text-align: center;
   color: white;
   }
- 
-  .text22 {
-    border: 10px solid rgb(192, 191, 191);
-    margin: auto;
-    width: 60%;
-    padding: 40px;
-    text-align: center;
-    background-color: rgba(129, 204, 145, 0.973);
-    font-family: sans-serif;
-    display: grid;
-  }
 
+  /*my body**/
+
+  body {
+  background-color: rgb(180, 180, 180);
+  margin: 0px;
+  overflow-x: hidden;
+  }
+  
+  /* images **/
+  
+  .logo-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -9px;
+  margin-bottom: -11px;  
+  }
   .bimage {
-    background-image: url("images/WP2.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("images/WP2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  }
+  .landfoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+  border: 1px solid #ccc;
+  }
+  .center {
+  align-content: center;
+  text-align: center;
   }
   .profile {
-    border: 1px solid #ccc;
-    box-shadow: 10px 10px 10px rgb(8, 8, 8);
-  }
-  .profile2 {
-    text-align: center;
-    font-family: sans-serif;
-    font-size: larger; 
-    margin-top: 30px; 
-    margin-bottom: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 10px 10px 10px rgb(8, 8, 8);
+  margin-top: 60px;
+  align-content: center;
   }
   .myprofileface {
   margin-top: 60px; 
@@ -95,71 +94,161 @@
   border: 1px solid #ccc;
   box-shadow: 10px 10px 10px rgb(8, 8, 8);
   }
-  .landfoto {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-    border: 1px solid #ccc;
+  .scale-down {
+  object-fit: scale-down;
+  width: 100%;
+  height: 100%;
   }
-  .foto {
-    text-align: center;
-    margin-top: 60px;
+  .indexprofile {
+  text-align: center;
+  margin-top: 30px; 
+  margin-bottom: 30px;
+  }  
+  .blogimage {
+  margin-top: 20px; 
+  margin-bottom: 30px
   }
 
-  .test {
-    border-color: rgb(255, 255, 255);
-    border-radius: 1px;
-    border-style: solid;
-    text-align: center;
-    background-color: aquamarine;
-    padding: 0.8rem;
-    margin: 0.5rem;
-  }
-  .container {
-    justify-content: center;
-    align-content: center;
-    
-  }
-    .stable {
-      text-align: center;
-      margin: 75px 250px 75px 250px;
-      padding: 100px 250px 450px 250px;
-    }
-    #red
-    {
-      background-color: red;
-    }
-    
-    mark {
-      background-color: rgba(129, 204, 145, 0.973) !important;
-    }
-      .item1 { grid-area: header; }
-      .item2 { grid-area: menu; }
-      .item3 { grid-area: main; }
-      .item4 { grid-area: right; }
-      .item5 { grid-area: footer; }
-      
-      .grid-container {
-        display: flexbox;
-        grid-template-areas:
-          'header header header header header header'
-          'menu main main main right right'
-          'menu footer footer footer footer footer';
-        grid-gap: 0px;
-        padding: 2px;
-      }
-      .grid-container > div {
-        background-color: rgba(255, 255, 255, 0.8);
-        text-align: center;
-        padding: 20px 0;
-        font-size: 30px;
-      }
+  /*my text **/
 
-      .mytext {
-        text-align: center;
-        font-family: sans-serif;
-      }
-.line {
+  .generaltext {
+  border: 10px solid rgb(192, 191, 191);
+  margin: auto;
+  width: 60%;
+  padding: 40px;
+  text-align: center;
+  background-color: rgba(129, 204, 145, 0.973);
+  font-family: sans-serif;
+  }
+  .mytext {
+  text-align: center;
+  font-family: sans-serif;
+  }
+  .line {
   text-decoration: underline;
+  }
+  .blog-h {
+    font-size: 3rem;
+  }
+  .subtitle {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  /* my dashboard page**/
+
+  .stable {
+  text-align: center;
+  margin: 75px 250px 75px 250px;
+  padding: 100px 250px 450px 250px;
+  }
+  #red
+  {
+  background-color: red;
+  }
+  mark {
+  background-color: rgba(129, 204, 145, 0.973) !important;
+  }
+
+  .item1 { grid-area: header; }
+  .item2 { grid-area: menu; }
+  .item3 { grid-area: main; }
+  .item4 { grid-area: right; }
+  .item5 { grid-area: footer; }
+
+  .grid-container {
+  display: flexbox;
+  grid-template-areas:
+  'header header header header header header'
+  'menu main main main right right'
+  'menu footer footer footer footer footer';
+  grid-gap: 0px;
+  padding: 2px;
+  }
+  .grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  }
+  table, th, td {
+  border: 1px solid #ccc;
+  width: auto;
+  }
+  th {
+  background-color: rgba(129, 204, 145, 0.973);
+  }
+  td {
+  width: 200px;
+  background-color: rgba(129, 204, 145, 0.973);
+  }
+
+/* container articles grid */
+
+.container-articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 20px;
+}
+
+.article3 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+/* container table grid */
+
+.table-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+.table-grid > span {
+  padding: 8px 4px;
+  background-color: rgba(129, 204, 145, 0.973);
+  border-top: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  align-self: stretch;
+}
+
+.grid-number1 {
+  grid-column: 1;
+  grid-row: 2 / span 3;
+  align-items: center;
+}
+
+.grid-number3 {
+  grid-column: 1;
+  grid-row: 6 / span 2;
+}
+
+.grid-year {
+  grid-column: 1;
+  grid-row: 9 / span 2;
+}
+
+/* my general page grid **/
+
+.container-articles-general {
+  display: grid;
+  width: 100%;
+  grid-row: 1;
+}
+
+/*extra**/
+
+.test {
+border-color: rgb(255, 255, 255);
+border-radius: 1px;
+border-style: solid;
+text-align: center;
+background-color: aquamarine;
+padding: 0.8rem;
+margin: 0.5rem;
+}
+.container {
+justify-content: center;
+align-content: center;
+
 }
